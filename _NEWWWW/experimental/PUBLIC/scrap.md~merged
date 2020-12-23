@@ -1,0 +1,75 @@
+3:34:30 AM:  ✔ 0.002 secs: logEvents
+3:34:30 AM:  ✔ 0.212 secs: loadAssets
+3:34:30 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'landing-page/dist/css/style.css'
+3:34:30 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'landing-page/dist/images/logo.png'
+3:34:30 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/blog-posts/blog/catagories/Cheat-Sheets/000-Link-cTy-bTy/ALL-HTML-Cht-sht/book-pages/z-D-TREE.html'
+3:34:30 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'landing-page/dist/images/iphone-hero-bg.png'
+3:34:30 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'landing-page/dist/images/iphone-feature-bg-01.png'
+3:34:30 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'landing-page/dist/images/iphone-feature-bg-02.png'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/js/vendor/html5shiv.min.js'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/js/vendor/respond.min.js'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/js/jquery.min.js'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/js/carousel.js'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/js/bootstrap.min.js'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/js/animate.js'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/js/custom.js'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/js/videobg.js'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/img/videoframe.jpg'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/0-images/mp4/ezgif.com-gif-maker.mp4'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/0-images/'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-13.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-14.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-15.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-16.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-17.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-18.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-19.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-20.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-21.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-22.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-23.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-24.html'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/upload/course_01.pgj'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/images/fullstack.PNG'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/images/upload/matrix-250.gif'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_Main-Components/upload/best-prac-250.gif'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'other-pages/blog-post'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/upload/course_04.jpg'
+3:34:31 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/upload/course_01.jpg'
+3:34:36 AM:  ⚠ WARN: PUBLIC/contact.html - Invalid URL: .https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAkADq7R0xf6ami9YirAM1N-yl7hdnYBhM
+3:34:36 AM:          Including assets:
+3:34:36 AM:              PUBLIC/index.html
+3:34:36 AM:              PUBLIC/blog.html
+3:34:36 AM:              PUBLIC/resources.html
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/glyphicons-halflings-regular.eot'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/glyphicons-halflings-regular.eot'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/glyphicons-halflings-regular.woff2'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/glyphicons-halflings-regular.woff'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/glyphicons-halflings-regular.ttf'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/glyphicons-halflings-regular.svg'
+3:34:57 AM:  ℹ INFO: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/main-css/bootstrap.min.css.map'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/main-css/owl.video.play.png'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/fontawesome-webfont.eot'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/fontawesome-webfont.eot'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/fontawesome-webfont.woff2'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/fontawesome-webfont.woff'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/fontawesome-webfont.ttf'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/_MAIN-COMPONENTS/css/fonts/fontawesome-webfont.svg'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/fonts/Flaticon.eot'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/fonts/Flaticon.woff'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/fonts/Flaticon.eot'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/fonts/Flaticon.ttf'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/fonts/Flaticon.svg'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/images/pattern.png'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/upload/formbg.jpg'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'PUBLIC/other-pages/weeks/week-9/w9-projects/aa-times/https://player.vimeo.com/video/380193367'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'assets/Content/blog-cache/index.html'
+3:34:57 AM:  ⚠ WARN: ENOENT: no such file or directory, open 'assets/Content/blog-cache/talks.html'
+3:35:07 AM:  ⚠ WARN: assets/Content/blog-cache/_posts/19-first-sip-of-es6-with-traceur.html - Html: Conditional comment end marker seen without a start marker: <![endif]
+3:35:07 AM:          Including assets:
+3:35:07 AM:              PUBLIC/resources.html
+3:35:26 AM:  ⚠ WARN: inline Css in assets/Content/blog-posts/0-projects/calendar-this-solution/calendar-this/solution/app/templates/main.html:1: - Parse error in inline Css in assets/Content/blog-posts/0-projects/calendar-this-solution/calendar-this/solution/app/templates/main.html(line 1, column 38):
+3:35:26 AM:          assets/Content/blog-posts/0-projects/calendar-this-solution/calendar-this/solution/app/templates/main.html:1:38: Unknown word
+3:35:26 AM:          Including assets:
+3:35:26 AM:              assets/Content/blog-posts/0-projects/calendar-this-solution/calendar-this/solution/app/templates/main.html
+3:35:28 AM:  ⚠ WARN: assets/Content/blog-posts/blog/catagories/Blog-Posts/emmet.html - Invalid URL: https://?emmet.io/download/

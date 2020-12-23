@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+
+<!-- Mirrored from htmlcheatsheet.com/jquery/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Dec 2020 00:15:47 GMT -->
+<head>
+	<title>Online jQuery Cheat Sheet</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="jQuery Cheat Seet will help you create the code for animations, various effects and other features for your website.">
+	<meta name="keywords" content="jquery,cheat,sheet">
+	<link rel="canonical" href="index.html" />
+	<meta property="og:title" content="Online jQuery Cheat Sheet" />
+	<meta property="og:description" content="jQuery Cheat Seet will help you create the code for animations, various effects and other features for your website." />
+	<meta property="og:url" content="index.html" />
+	<meta property="og:image" content="../images/html-cheatsheet.jpg" />
+	<meta property="og:type" content="website" />
+	<link rel="icon" type="image/png" href="../favicon.ico" />
+	<link rel="stylesheet" href="../codemirror/doc/docs.css">
+	<link rel="stylesheet" href="../codemirror/lib/codemirror.css">
+	<script src="../jscolor/jscolor.min.js"></script>
+	<script src="../tinymce/tinymce.gzip.js"></script>
+	<script src="../../code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="../../code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="../codemirror/lib/codemirror.js"></script>
+	<script src="../codemirror/addon/fold/xml-fold.js"></script>
+	<script src="../codemirror/addon/edit/matchtags.js"></script>
+	<script src="../codemirror/addon/selection/active-line.js"></script>
+	<script src="../codemirror/mode/xml/xml.js"></script>
+	<script src="../codemirror/mode/css/css.js"></script>
+	<link href="../../code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+	<script src="../cheatsheeta116.js?z=2020"></script>
+	<link rel="stylesheet" href="../cheatsheeta116.css?z=2020">
+	<script src="jquery.js"></script>
+	<link rel="stylesheet" href="jquery.css">
+	<script async=true>!function(){var e=window.location.hostname,t=document.createElement("script"),a=document.getElementsByTagName("script")[0],n="https://quantcast.mgr.consensu.org".concat("../choice/index.html","xncav4ssEzwLp","../index.html",e,"../choice.html"),i=0;t.async=!0,t.type="text/javascript",t.src=n,a.parentNode.insertBefore(t,a),function(){function e(){var t=s.document,a=!!s.frames[i];if(!a)if(t.body){var n=t.createElement("iframe");n.style.cssText="display:none",n.name=i,t.body.appendChild(n)}else setTimeout(e,5);return!a}function t(){var e,t=arguments;if(!t.length)return o;if("setGdprApplies"===t[0])t.length>3&&2===t[2]&&"boolean"==typeof t[3]&&(e=t[3],"function"==typeof t[2]&&t[2]("set",!0));else if("ping"===t[0]){var a={gdprApplies:e,cmpLoaded:!1,cmpStatus:"stub"};"function"==typeof t[2]&&t[2](a)}else o.push(t)}function a(e){var t="string"==typeof e.data,a={};try{a=t?JSON.parse(e.data):e.data}catch(e){}var n=a.__tcfapiCall;n&&window.__tcfapi(n.command,n.version,function(a,i){var o={__tcfapiReturn:{returnValue:a,success:i,callId:n.callId}};t&&(o=JSON.stringify(o)),e.source.postMessage(o,"*")},n.parameter)}for(var n,i="__tcfapiLocator",o=[],s=window;s;){try{if(s.frames[i]){n=s;break}}catch(e){}if(s===window.top)break;s=s.parent}n||(e(),s.__tcfapi=t,s.addEventListener("message",a,!1))}();var o=function(){var e=arguments;typeof window.__uspapi!==o&&setTimeout(function(){void 0!==window.__uspapi&&window.__uspapi.apply(window.__uspapi,e)},500)},s=function(){i++,window.__uspapi===o&&i<3?console.warn("USP is not accessible"):clearInterval(c)};if(void 0===window.__uspapi){window.__uspapi=o;var c=setInterval(s,6e3)}}();</script>
+</head>
+<!--------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------->
+
+
+
+<body class="jspage">
+	<div id="pagewrap">		
+		<div id="tabContainer">
+		</div>
+		<a href="../index.html" title="HTML CSS JavaScript Home" class="homeMenu">HTML CSS JS</a>
+		<div class="mainContent">			
+			<div class="header">
+				<div class="navigationtabs">
+					<nav>
+						<ul>
+							<li><a href="../index.html" class="htmlColor" title="HTML Cheat Sheet">HTML</a></li>
+							<li><a href="../css/index.html" class="cssColor" title="CSS Cheat Sheet">CSS</a></li>
+							<li><a href="../js/index.html" class="jsColor" title="JS Cheat Sheet">JS</a></li>
+							<li><a href="#" class="jqColor" title="jQuery Cheat Sheet"><span>jQ</span></a></li>
+							<li><a href="../amp/index.html" class="ampColor" title="AMP HTML Cheat Sheet"><span>⚡</span>&nbsp;AMP</a></li>
+							<li><a href="../seo/index.html" class="seoColor" title="SEO Cheat Sheet"><strong>S</strong><strong>E</strong><strong>O</strong></a></li>
+						</ul>
+					</nav>
+				</div>
+				<h1><img src="../images/logo-jquery.png" height="50" width="36" alt="jQuery Cheat Sheet" /> jQuery CheatSheet</h1>
+				<div id="hideComments">Hide comments</div>
+			</div>
+		
+			<div id="minimizedPanels">
+			</div>
+			
+			<div class="masonryPanels">
+				<div class="masonryPanelWrap noPencil" id="firstGridItem">
+				</div>
+
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Basics</h2>
+						<div class="panelHelper">Introduction to jQuery programming </div>
+						<div class="panelInner">
+							<h4>Include</h4>
+							
+							<a href="https://code.jquery.com/" target="_blank" rel="nofollow">Download</a>
+<pre style="color:#000"><span style="color:#1c02ff">&lt;<span style="font-weight:700">script</span> <span style="font-style:italic">src</span>=<span style="color:#d80800">"https://code.jquery.com/jquery-latest.min.js"</span> <span style="font-style:italic">type</span>=<span style="color:#d80800">"text/javascript"</span>>&lt;/<span style="font-weight:700">script</span>></span>
+</pre>
+<pre style="color:#000"><span style="color:#1c02ff">&lt;<span style="font-weight:700">script</span> <span style="font-style:italic">src</span>=<span style="color:#d80800">"https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"</span>>&lt;/<span style="font-weight:700">script</span>></span>
+</pre>
+							<h4>Syntax</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#6d79de;font-weight:700">document</span>).ready(function(){
+<span style="color:#687687">$</span>(<span style="color:#d80800">".demo"</span>).<span style="color:#3c4c72;font-weight:700">click</span>(function(){
+	<span style="color:#687687">$</span>(<span style="color:#0206ff;font-style:italic">this</span>).hide(<span style="color:#cd0000;font-style:italic">200</span>);
+});
+});
+</pre>
+<pre style="color:#000"><span style="color:#687687">$</span>(function(){
+<span style="color:#00b418">// Short Document Ready</span>
+});
+</pre>
+							<h4>Each</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">".demo"</span>).each(function() {                <span style="color:#00b418">// parse each .demo element</span>
+<span style="color:#6d79de;font-weight:700">document</span>.<span style="color:#3c4c72;font-weight:700">write</span>(<span style="color:#687687">$</span>(<span style="color:#0206ff;font-style:italic">this</span>).<span style="color:#06960e;font-weight:700">text</span>() <span style="color:#687687">+</span> <span style="color:#d80800">"<span style="color:#26b31a">\n</span>"</span>);  <span style="color:#00b418">// output their text</span>
+});
+</pre>
+							<h4>Trigger</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"a#mylink"</span>).trigger(<span style="color:#d80800">"click"</span>); <span style="color:#00b418">// triggers event on an element</span>
+</pre>
+							<h4>noConflict</h4>
+<pre style="color:#000">var jq <span style="color:#687687">=</span> <span style="color:#687687">$</span>.noConflict();            <span style="color:#00b418">// avoid conflict with other frameworks also using the dollar sign</span>
+jq(<span style="color:#6d79de;font-weight:700">document</span>).ready(function(){
+jq(<span style="color:#d80800">"#demo"</span>).<span style="color:#06960e;font-weight:700">text</span>(<span style="color:#d80800">"Hello World!"</span>);
+});
+</pre>
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Selectors</h2>
+						<div class="panelHelper">Selectors to target elements. Similar to CSS. </div>
+						<div class="panelInner">
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"*"</span>)                      <span style="color:#00b418">// all elements</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"p.demo"</span>)                 <span style="color:#00b418">// &lt;p> elements with class="intro"</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"p:first"</span>)                <span style="color:#00b418">// the first &lt;p> element</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"p span"</span>)                 <span style="color:#00b418">// span, descendant of p</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"p > span"</span>)               <span style="color:#00b418">// span, direct child of p</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"p + span"</span>)               <span style="color:#00b418">// span immediately proceeded by a p</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"p ~ span"</span>)               <span style="color:#00b418">// strong element proceeded by p</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"ul li:first"</span>)            <span style="color:#00b418">// the first &lt;li> element of the first &lt;ul></span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"ul li:first-child"</span>)      <span style="color:#00b418">// the first &lt;li> element of every &lt;ul></span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"ul li:nth-child(3)"</span>)     <span style="color:#00b418">// third child</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"[href]"</span>)                 <span style="color:#00b418">// any element with an href attribute</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"a[target='_blank']"</span>)     <span style="color:#00b418">// &lt;a> elements with a target "_blank" attribute</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"a[target!='_blank']"</span>)    <span style="color:#00b418">// &lt;a> elements with a target attribute value other than "_blank"</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">":input"</span>)                 <span style="color:#00b418">// all form elements</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">":button"</span>)                <span style="color:#00b418">// &lt;button> and &lt;input> elements of type="button"</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"tr:even"</span>)                <span style="color:#00b418">// even &lt;tr> elements</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"tr:odd"</span>)                 <span style="color:#00b418">// odd &lt;tr> elements</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"span:parent"</span>)            <span style="color:#00b418">// element which has child element</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"span:contains('demo')"</span>)  <span style="color:#00b418">// element conaining the specified text</span>
+</pre>
+							<h4>Actions</h4>
+							<strong>$(selector).action()</strong>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#0206ff;font-style:italic">this</span>).hide()      <span style="color:#00b418">// the current element</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"div"</span>).hide()     <span style="color:#00b418">// all &lt;div> elements</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">".demo"</span>).hide()   <span style="color:#00b418">// all elements with class="demo"</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).hide()   <span style="color:#00b418">// the element with id="demo"</span>
+</pre>
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Events</h2>
+						<div class="panelHelper">Trigger jQuery events </div>
+						<div class="panelInner">
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">".demo"</span>).<span style="color:#3c4c72;font-weight:700">click</span>(function(){
+<span style="color:#687687">$</span>(<span style="color:#0206ff;font-style:italic">this</span>).hide(<span style="color:#cd0000;font-style:italic">200</span>);
+});
+</pre>
+							<h4>Mouse</h4>
+							scroll, click, dblclick, mousedown, mouseup, mousemove, mouseover, mouseout, mouseenter, mouseleave, load, resize, scroll, unload, error
+							<h4>Keyboard</h4>
+							keydown, keypress, keyup
+							<h4>Form</h4>
+							submit, change, focus, blur
+							<h4>DOM Element</h4>
+							blur, focus, focusin, focusout, change, select, submit
+							<h4>Browser</h4>
+							load, resize, scroll, unload, error
+							<h4>.bind()</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#6d79de;font-weight:700">document</span>).ready(function() {              <span style="color:#00b418">// attach a handler to an event for the elements        </span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).bind(<span style="color:#d80800">'blur'</span>, function(e) {
+	<span style="color:#00b418">//dom event fired</span>
+});
+});
+</pre>
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Ads</h2>
+						<div class="panelHelper">Otherwise we're starving. </div>
+						<div class="panelInner">
+							<div class="reklamocska">
+								<script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+								<!-- Rectangle -->
+								<ins class="adsbygoogle"
+									 style="display:inline-block;width:336px;height:280px"
+									 data-ad-client="ca-pub-9728962508602593"
+									 data-ad-slot="1534550908"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>								
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Effects</h2>
+						<div class="panelHelper">Animation effects </div>
+						<div class="panelInner">
+							<h4>Hide / Show</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).hide();      <span style="color:#00b418">// sets to display: none</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).show(<span style="color:#cd0000;font-style:italic">200</span>);   <span style="color:#00b418">// shows hidden elemnt with animation (speed)</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).toggle();    <span style="color:#00b418">// toggle between show and hide</span>
+
+<span style="color:#687687">$</span>( <span style="color:#d80800">"#element"</span> ).hide( <span style="color:#d80800">"slow"</span>, function() {  <span style="color:#00b418">// hide with callback function</span>
+<span style="font-style:italic">console</span><span style="color:#3c4c72;font-weight:700">.log</span>( <span style="color:#d80800">"Animation complete."</span> );
+});
+</pre>
+							<h4>Fade</h4>
+							fadeIn, fadeOut, fadeToggle, fadeTo
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).fadeIn();                <span style="color:#00b418">// fade in a hidden element</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).fadeOut(<span style="color:#cd0000;font-style:italic">300</span>);            <span style="color:#00b418">// fade out</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).fadeToggle(<span style="color:#d80800">"slow"</span>);      <span style="color:#00b418">// toggle between fadeIn and hadeOut</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).fadeTo(<span style="color:#d80800">"slow"</span>, <span style="color:#cd0000;font-style:italic">0.25</span>);    <span style="color:#00b418">// fades to 0.25 opacity</span>
+</pre>
+							<h4>Slide</h4>
+							slideDown, slideUp, slideToggle
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).slideDown();
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).slideUp(<span style="color:#d80800">"slow"</span>);
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).slideToggle();
+</pre>
+							<h4>Animate</h4>
+							$(selector).animate({params},speed,callback);
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"div"</span>).animate({
+opacity: <span style="color:#d80800">'0.5'</span>,
+left: <span style="color:#d80800">'200px'</span>,
+height: <span style="color:#d80800">'200px'</span>
+});
+</pre>
+							<h4>stop() Method</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#3c4c72;font-weight:700">stop</span>();
+</pre>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">'#demo'</span>).mouseleave(function(<span style="color:#6d79de;font-weight:700">event</span>) {     <span style="color:#00b418">// hover end</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">'.tab'</span>).<span style="color:#3c4c72;font-weight:700">stop</span>().animate({              <span style="color:#00b418">// stop() method</span>
+	opacity : <span style="color:#d80800">'0.5'</span>,
+	marginTop: <span style="color:#d80800">'10px'</span>
+}, <span style="color:#cd0000;font-style:italic">500</span>, function() {                    <span style="color:#00b418">// animation complete</span>
+	<span style="color:#687687">$</span>(<span style="color:#d80800">'#demo'</span>).removeClass(<span style="color:#d80800">'hovered'</span>);  <span style="color:#00b418">// callback function</span>
+});
+});
+<span style="color:#687687">$</span>(<span style="color:#d80800">'#demo'</span>).mouseover(function(<span style="color:#6d79de;font-weight:700">event</span>) {      <span style="color:#00b418">// hover begin</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">'.tab'</span>).<span style="color:#3c4c72;font-weight:700">stop</span>().animate({              <span style="color:#00b418">// stop() method</span>
+	opacity : <span style="color:#d80800">'1'</span>,
+	marginTop: <span style="color:#d80800">'0px'</span>
+}, <span style="color:#cd0000;font-style:italic">300</span>, function() {                    <span style="color:#00b418">// animation complete</span>
+	<span style="color:#687687">$</span>(<span style="color:#d80800">'#demo'</span>).addClass(<span style="color:#d80800">'hovered'</span>);     <span style="color:#00b418">// callback function</span>
+});
+});
+</pre>
+							<h4>Chaining</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).css(<span style="color:#d80800">"backgroundColor"</span>, <span style="color:#d80800">"green"</span>).slideUp(<span style="color:#cd0000;font-style:italic">500</span>).slideDown(<span style="color:#cd0000;font-style:italic">500</span>);
+</pre>
+
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>DOM Manipulation</h2>
+						<div class="panelHelper">Accessing and manipulating the Document Object Model </div>
+						<div class="panelInner">
+							<h4>Content</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#06960e;font-weight:700">text</span>();                  <span style="color:#00b418">// returns text content</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).html();                  <span style="color:#00b418">// returns content, including HTML markup</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).val();                   <span style="color:#00b418">// returns field value</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).html(<span style="color:#d80800">'Hey &lt;em>yo&lt;/em>'</span>); <span style="color:#00b418">// sets HTML content</span>
+</pre>
+							<h4>Attributes</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#link"</span>).attr(<span style="color:#d80800">"href"</span>);                    <span style="color:#00b418">// get an attribute</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#link"</span>).attr(<span style="color:#d80800">"href"</span>,<span style="color:#d80800">'https://htmlg.com'</span>); <span style="color:#00b418">// set attribute</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#link"</span>).attr({
+<span style="color:#d80800">"href"</span> : <span style="color:#d80800">"https://htmlg.com"</span>,            <span style="color:#00b418">// setting multiple attributes</span>
+<span style="color:#d80800">"title"</span> : <span style="color:#d80800">"HTML Editor"</span>
+});
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#link"</span>).attr(<span style="color:#d80800">"href"</span>, function(i, origValue){
+<span style="color:#0100b6;font-weight:700">return</span> origValue <span style="color:#687687">+</span> <span style="color:#d80800">"/help"</span>;             <span style="color:#00b418">// callback function gets and changes the attribute</span>
+});
+</pre>
+							<h4>Add</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">".demo"</span>).prepend(<span style="color:#d80800">"Yo!"</span>);          <span style="color:#00b418">// adds content at the beginning in the selected elements</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">".demo"</span>).append(<span style="color:#d80800">"&lt;em>Hey!&lt;/em>"</span>); <span style="color:#00b418">// adds content at the end in the selected elements</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">".demo"</span>).before(<span style="color:#d80800">"Cheers"</span>);        <span style="color:#00b418">// adds content before the selected elements</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">".demo"</span>).after(<span style="color:#d80800">"&lt;em>Peace&lt;/em>"</span>); <span style="color:#00b418">// adds content after the selected elements</span>
+</pre>
+							<h4>Remove</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#3c4c72;font-weight:700">remove</span>();            <span style="color:#00b418">// removes the selected element</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).empty();             <span style="color:#00b418">// removes children</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"div"</span>).<span style="color:#3c4c72;font-weight:700">remove</span>(<span style="color:#d80800">".cl1, .cl2"</span>);  <span style="color:#00b418">// removes divs with the listed classes</span>
+</pre>
+							<h4>Classes</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).addClass(<span style="color:#d80800">"big red"</span>); <span style="color:#00b418">// add class</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"h1, p"</span>).removeClass(<span style="color:#d80800">"red"</span>);  <span style="color:#00b418">// remove class</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).toggleClass(<span style="color:#d80800">"big"</span>);  <span style="color:#00b418">// toggle between adding and removing</span>
+</pre>
+							<h4>CSS</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).css(<span style="color:#d80800">"background-color"</span>);     <span style="color:#00b418">// returns CSS value</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).css(<span style="color:#d80800">"color"</span>, <span style="color:#d80800">"blue"</span>);        <span style="color:#00b418">// sets CSS rule</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).css({<span style="color:#d80800">"color"</span>: <span style="color:#d80800">"blue"</span>, <span style="color:#d80800">"font-size"</span>: <span style="color:#d80800">"20px"</span>}); <span style="color:#00b418">// sets multiple CSS properties</span>
+</pre>
+							<h4>Dimensions</h4>
+							width, height, innerWidth, innerHeight, outerWidth, outerHeight<br />
+							<em><strong>inner</strong> - includes padding<br />
+							<strong>outer</strong> - includes padding and border</em>
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Traversing</h2>
+						<div class="panelHelper">Select elements based on their relation to other elements. </div>
+						<div class="panelInner">
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#06960e;font-weight:700">parent</span>();                <span style="color:#00b418">// accessing direct parent</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"span"</span>).<span style="color:#06960e;font-weight:700">parent</span>().hide();          <span style="color:#00b418">// changing parent color</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).parents();               <span style="color:#00b418">// all ancestors of the element</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).parentsUntil(<span style="color:#d80800">"#demo2"</span>);  <span style="color:#00b418">// all ancestors between two - demo is inside demo2</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).children();              <span style="color:#00b418">// all direct children</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).children(<span style="color:#d80800">".first"</span>);      <span style="color:#00b418">// all direct children having a specified class</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#3c4c72;font-weight:700">find</span>(<span style="color:#d80800">"span"</span>);            <span style="color:#00b418">// all span elements inside #demo</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#3c4c72;font-weight:700">find</span>(<span style="color:#d80800">"*"</span>);               <span style="color:#00b418">// all descendants</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).siblings(<span style="color:#d80800">"span"</span>);        <span style="color:#00b418">// span siblings of #demo</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#06960e;font-weight:700">next</span>();                  <span style="color:#00b418">// the next sibling</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"p"</span>).nextAll();                   <span style="color:#00b418">// all next siblings</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).nextUntil(<span style="color:#d80800">"#demo2"</span>);     <span style="color:#00b418">// siblings between two arguments</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).prev();                  <span style="color:#00b418">// the previous sibling</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"p"</span>).prevAll();                   <span style="color:#00b418">// all previous siblings</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).prevUntil(<span style="color:#d80800">"#demo2"</span>);     <span style="color:#00b418">// previous siblings between two arguments</span>
+</pre>
+							<h4>Filtering</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"span strong"</span>).first();   <span style="color:#00b418">// first strong in first span</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"span strong"</span>).last();    <span style="color:#00b418">// last strong in last span</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"div"</span>).eq(<span style="color:#cd0000;font-style:italic">9</span>);             <span style="color:#00b418">// element with a specific index</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"div"</span>).filter(<span style="color:#d80800">".big"</span>);    <span style="color:#00b418">// all div elements with .big class</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"div"</span>).not(<span style="color:#d80800">".big"</span>);       <span style="color:#00b418">// opposite of filter</span>
+</pre>
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Ads</h2>
+						<div class="panelHelper">Otherwise we're starving. </div>
+						<div class="panelInner">
+							<div class="reklamocska">
+								<script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+								<!-- Rectangle -->
+								<ins class="adsbygoogle"
+									 style="display:inline-block;width:336px;height:280px"
+									 data-ad-client="ca-pub-9728962508602593"
+									 data-ad-slot="1534550908"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>								
+						</div>
+					</div>
+				</div>
+				
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Ajax</h2>
+						<div class="panelHelper">Exchanging data with the server dynamically updating parts of the page. </div>
+<pre style="color:#000"><span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#3c4c72;font-weight:700">load</span>(<span style="color:#d80800">"file.txt h1.main"</span>);                                <span style="color:#00b418">// returns the h1 tag in the text file</span>
+<span style="color:#687687">$</span>(<span style="color:#d80800">"#demo"</span>).<span style="color:#3c4c72;font-weight:700">load</span>(<span style="color:#d80800">"file.txt"</span>, function(responseTxt, statusTxt, xhr){  <span style="color:#00b418">// callback function</span>
+<span style="color:#0100b6;font-weight:700">if</span>(statusTxt <span style="color:#687687">==</span> <span style="color:#d80800">"success"</span>) {
+	<span style="color:#6d79de;font-weight:700">document</span>.<span style="color:#3c4c72;font-weight:700">write</span>(<span style="color:#d80800">"Content loaded successfully!"</span>); 
+} <span style="color:#0100b6;font-weight:700">else</span> {
+	<span style="color:#6d79de;font-weight:700">document</span>.<span style="color:#3c4c72;font-weight:700">write</span>(<span style="color:#d80800">"Error: "</span> <span style="color:#687687">+</span> xhr.<span style="color:#06960e;font-weight:700">status</span> <span style="color:#687687">+</span> <span style="color:#d80800">": "</span> <span style="color:#687687">+</span> xhr.<span style="color:#06960e;font-weight:700">statusText</span>); 
+}
+});
+</pre>
+						<div class="panelInner">
+							<h4>$.get()</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>.get(<span style="color:#d80800">"demo.asp"</span>, function(data, status){       <span style="color:#00b418">//$.get(URL,callback);</span>
+<span style="color:#6d79de;font-weight:700">document</span>.<span style="color:#3c4c72;font-weight:700">write</span>(<span style="color:#d80800">"Data: "</span> <span style="color:#687687">+</span> data <span style="color:#687687">+</span> <span style="color:#d80800">"<span style="color:#26b31a">\n</span>Status: "</span> <span style="color:#687687">+</span> status);
+});
+</pre>
+							<h4>$.post()</h4>
+<pre style="color:#000"><span style="color:#687687">$</span>.post(<span style="color:#d80800">"demo.asp"</span>,      <span style="color:#00b418">// send HTTP POST request to a page and get the answer</span>
+{
+name: <span style="color:#d80800">"John"</span>,       <span style="color:#00b418">// send data</span>
+age: <span style="color:#cd0000;font-style:italic">30</span>
+},
+function(data, status){ <span style="color:#00b418">//retreive response</span>
+<span style="font-style:italic">console</span><span style="color:#3c4c72;font-weight:700">.log</span>(<span style="color:#d80800">"Data: "</span> <span style="color:#687687">+</span> data <span style="color:#687687">+</span> <span style="color:#d80800">"<span style="color:#26b31a">\n</span>Status: "</span> <span style="color:#687687">+</span> status);
+});
+</pre>
+						</div>
+					</div>
+				</div>
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Ads</h2>
+						<div class="panelHelper">Otherwise we're starving. </div>
+						<div class="panelInner">
+							<div class="reklamocska">
+								<script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+								<!-- Rectangle -->
+								<ins class="adsbygoogle"
+									 style="display:inline-block;width:336px;height:280px"
+									 data-ad-client="ca-pub-9728962508602593"
+									 data-ad-slot="1534550908"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</div>								
+						</div>
+					</div>
+				</div>					
+				<div class="masonryPanelWrap noPencil">
+					<div class="masonryPanel">
+						<h2>Useful Links</h2>
+						<div class="panelHelper">A list of free useful resources. </div>
+						<div class="panelInner">
+							<div class="buttonkaLista">
+								<a href="https://jquery.com/" target="_blank" rel="nofollow">jQuery</a>
+								<a href="https://jqueryui.com/" target="_blank" rel="nofollow">jQuery UI</a>
+								<a href="https://html-cleaner.com/js/" target="_blank" rel="nofollow">JS cleaner</a>
+								<a href="https://javascriptobfuscator.com/Javascript-Obfuscator.aspx" target="_blank" rel="nofollow">JS Obfuscator</a>
+								<a href="https://html-online.com/articles/category/jquery/" target="_blank" rel="nofollow">Articles</a>
+								<a href="https://caniuse.com/" target="_blank" rel="nofollow">Can I use?</a>
+								<!--
+								<a href="#" target="_blank" rel="nofollow">Link</a>
+								-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a name="editors" id="editorsAnchor"></a>
+			<div id="layover">
+			</div>
+			<div id="wrapPreviews" class="clearfix">
+				<div class="wrapPanelControls"><a class="undockPanel" title="Undock editors">&searr;</a></div>
+				<div class="sourceEditorWrap">
+					<div class="editorHeader"><abbr title="Real-Time Source Code Editor">HTML</abbr></div>
+					<div id="sourceFieldecske"></div>
+					<script>
+						var sourceEditorFricc = CodeMirror(document.getElementById("sourceFieldecske"), {
+							value: "",
+							lineNumbers: true,
+							styleActiveLine: true,
+							mode: "text/html",
+							lineWrapping: true,
+							matchTags: {bothTags: true},
+						  });		
+						sourceEditorFricc.on("change", function() {
+							inputChanged();
+						  });
+					</script>
+				</div>
+				
+				<div class="cssEditorWrap">
+					<div class="editorHeader"><abbr title="Style Sheets">CSS</abbr></div>
+					<div id="cssCodeFieldecske"></div>
+					<script>
+						var cssEditorFricc = CodeMirror(document.getElementById("cssCodeFieldecske"), {
+							value: "",
+							lineNumbers: true,
+							styleActiveLine: true,
+							lineWrapping: true,
+							mode: "text/css",
+							matchTags: {bothTags: true},
+						  });
+					</script>
+					<a id="applyCss" title="Apply CSS style">Apply CSS</a>
+				</div>
+				
+				<div class="visualWrap">
+					<div class="editorHeader">Preview</div>
+					<form method="post">
+						<textarea id="elm1" name="elm1"></textarea>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="article">
+<article>
+<h3>Online jQuery Cheat Sheet</h3>
+<p><strong>jQuery Cheat Sheet will help you create the code for animations, various effects and other features for your website. Find the most common code snippets on a single page. </strong></p>
+<p>Hide the green comments with the link in the top right corner of the site. Click the code snippets to highlight then copy-paste them in your project!</p>
+<ul>
+<li><strong>Basics</strong> &ndash; Introduction to jQuery syntax through commonly used code examles. Learn how to include jQuery in your <a href="../index.html">HTML</a> code. </li>
+<li><strong>Selector</strong> &ndash; Similar to how we target <a href="../css/index.html">CSS</a> elements in the style sheets, we use selectors.</li>
+<li><strong>Events </strong> &ndash; Just like we have <a href="../js/index.html">JavaScript</a> events, we can set up listeners with jQuery.  </li>
+<li><strong>Effects </strong> &ndash; Learn how to animate the HTML elements. Make them fade, slide or set up any other effect with custom CSS properties. </li>
+<li><strong>Dom Manipulation </strong> &ndash; It's easy to get and edit the content of a Document Object Model item.  </li>
+<li><strong>Traversing </strong> &ndash; The way of targeting elements based on their hierarchy in the code. Imagine that the source of the page is a family tree where you can work with parents, children, siblings etc.  </li>
+<li><strong>Ajax </strong> &ndash; Exchange data with the server to dynamically update parts of the page. </li>
+<li><strong>Links </strong> &ndash; Useful links and online tools to work with jQuery. </li>
+</ul>
+<p>Make sure you save this link to help your next project.</p>
+</article>
+		</div>
+		<div class="footer">
+			HTML Cheat Sheet is using cookies. | <a href="jQuery-Cheat-Sheet.pdf" target="_blank">PDF</a> | <a href="https://html-css-js.com/terms-privacy/" target="_blank">Terms and Conditions, Privacy Policy</a><br />
+			&copy;&nbsp;HTMLCheatSheet.com				
+		</div>		
+		<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+	</div> 
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-93090731-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+</body>
+
+<!-- Mirrored from htmlcheatsheet.com/jquery/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Dec 2020 00:15:49 GMT -->
+</html>
